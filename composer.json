@@ -1,0 +1,20 @@
+{
+    "name": "stijn-flipper/mathjax",
+    "type": "phile-plugin",
+    "version": "0.1.0",
+    "license": "MIT License",
+    "description": "Beautiful math formulas with MathJax",
+    "homepage": "https://github.com/Stijn-Flipper/phileMathJax",
+    "keywords": ["cms", "phile", "content", "math", "mathjax"],
+    "authors": [
+        {
+            "name": "Stijn Wouters",
+            "email": "w.stijn@gmail.com",
+            "homepage": "http://hacketyflippy.be/"
+        }
+    ],
+    "require": {
+        "phile-cms/phile": ">=1.0",
+        "phile-cms/plugin-installer-plugin": ">=1.0"
+    }
+}
