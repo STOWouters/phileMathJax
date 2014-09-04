@@ -3,7 +3,7 @@
 /**
  * Plugin class.
  */
-namespace Phile\Plugin\StijnFlipper\MathJax;
+namespace Phile\Plugin\StijnFlipper\PhileMathjax;
 
 /**
  * Class Plugin
