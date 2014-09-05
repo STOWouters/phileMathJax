@@ -6,7 +6,7 @@ mathjax.enabled
 mathjax.config: TeX-AMS_HTML
 -->
 
-\\[ E = mc^2\tag{x} \\]
+$$ E = mc^2\tag{x} $$
 
 \begin{align} 
 a\_{11}& =b\_{11}& a\_{12}& =b\_{12}\notag\\\\

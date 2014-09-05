@@ -16,10 +16,10 @@ The Lorenz Equations:
 
 The Cauchy-Schwarz Inequality:
 
-\\[
+$$
 \left( \sum\_{k=1}^n a\_k b\_k \right)^{\\!\\!2} \leq
 \left( \sum\_{k=1}^n a\_k^2 \right) \left( \sum\_{k=1}^n b\_k^2 \right)
-\\]
+$$
 
 
 A Cross Product Formula:
@@ -35,17 +35,16 @@ A Cross Product Formula:
 
 The probability of getting \\(k\\) heads when flipping \\(n\\) coins is:
 
-\\[ P(E) = {n \choose k} p^k (1-p)^{ n-k} \\]
+$$ P(E) = {n \choose k} p^k (1-p)^{ n-k} $$
 
 
 An Identity of Ramanujan:
 
-\\[
+$$
 \frac{1}{(\sqrt{\phi \sqrt{5}}-\phi) e^{\frac25 \pi}} =
   1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
   {1+\frac{e^{-8\pi}} {1+\ldots} } } }
-\\]
-
+$$
 
 A Rogers-Ramanujan Identity:
 
