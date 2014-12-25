@@ -1,6 +1,8 @@
 # phileMathjax
 [Phile][] plugin for beautiful math formulas using [MathJax][].
 
+For the impatients, you can checkout the [short live demo][].
+
 
 ## Installation
 **Using composer**
@@ -24,6 +26,7 @@ Don't forget to enable the plugin by adding the following line to your
 ```php
 $config['plugins']['stijnFlipper\\phileMathjax'] = array('active' => true);
 ```
+
 
 ## Usage
 First, put this in the `<head>` section of your theme (or at the bottom of the
@@ -109,8 +112,9 @@ This will override the settings as given by `config.php` for the content file.
 
 
 ## Examples
-Drop the markdown files in the `examples` directory in the `content` dir, so
-you can view it in your browser, or peek into the source for how-to.
+For the impatients, you can check out the [short live demo][]. Otherwise you
+can drop the markdown files from the `examples` directory in your `content`
+folder, so you can view it in your browser, or peek into the source for how-to.
 
 
 ## Contributing
@@ -119,3 +123,4 @@ Feel free to report bugs and/or send useful PR's.
 
 [Phile]: https://github.com/PhileCMS/Phile
 [Mathjax]: https://github.com/mathjax/MathJax
+[short live demo]: http://hacketyflippy.be/blog/project/4#demo
