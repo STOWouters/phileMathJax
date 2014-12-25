@@ -11,7 +11,7 @@ namespace Phile\Plugin\StijnFlipper\PhileMathjax;
  * @author  Stijn Wouters
  * @link    https://github.com/Stijn-Flipper/phileMathjax
  * @license http://choosealicense.com/licenses/mit/
- * @package Phile\Plugin\StijnFlipper\Mathjax
+ * @package Phile\Plugin\StijnFlipper\PhileMathjax
  */
 class Plugin extends \Phile\Plugin\AbstractPlugin implements \Phile\Gateway\EventObserverInterface {
 
