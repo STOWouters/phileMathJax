@@ -5,7 +5,7 @@
 ## Installation
 **Using composer**
 
-    $ composer require 'stijn-flipper/phile-mathjax:dev-master'
+    $ composer require 'stijn-flipper/phile-mathjax:dev-master' --prefer-dist
 
 **But I don't like composer**
 
