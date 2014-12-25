@@ -1,4 +1,4 @@
-# phileMathJax
+# phileMathjax
 [Phile][] plugin for beautiful math formulas using [MathJax][].
 
 
@@ -9,7 +9,7 @@
 
 **But I don't like composer**
 
-    $ git clone https://github.com/Stijn-Flipper/phileMathJax plugins/stijnFlipper/phileMathjax
+    $ git clone https://github.com/Stijn-Flipper/phileMathjax plugins/stijnFlipper/phileMathjax
 
 **I don't like git either**
 

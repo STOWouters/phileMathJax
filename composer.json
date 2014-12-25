@@ -3,7 +3,7 @@
     "type": "phile-plugin",
     "license": "MIT",
     "description": "Beautiful math formulas with MathJax",
-    "homepage": "https://github.com/Stijn-Flipper/phileMathJax",
+    "homepage": "https://github.com/Stijn-Flipper/phileMathjax",
     "keywords": ["cms", "phile", "content", "math", "mathjax"],
     "authors": [
         {

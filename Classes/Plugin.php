@@ -9,14 +9,14 @@ namespace Phile\Plugin\StijnFlipper\PhileMathjax;
  * Class Plugin
  *
  * @author  Stijn Wouters
- * @link    https://github.com/Stijn-Flipper/phileMathJax
+ * @link    https://github.com/Stijn-Flipper/phileMathjax
  * @license http://choosealicense.com/licenses/mit/
- * @package Phile\Plugin\Flipper\MathJax
+ * @package Phile\Plugin\StijnFlipper\Mathjax
  */
 class Plugin extends \Phile\Plugin\AbstractPlugin implements \Phile\Gateway\EventObserverInterface {
 
   /**
-   * MathJax configuration settins, see
+   * MathJax configuration settings, see
    *
    * @var array mathjax_settings
    */
