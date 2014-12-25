@@ -4,7 +4,7 @@
     "license": "MIT",
     "description": "Beautiful math formulas with MathJax",
     "homepage": "https://github.com/Stijn-Flipper/phileMathjax",
-    "keywords": ["cms", "phile", "content", "math", "mathjax"],
+    "keywords": ["cms", "phile", "plugin", "content", "math", "mathjax"],
     "authors": [
         {
             "name": "Stijn Wouters",
