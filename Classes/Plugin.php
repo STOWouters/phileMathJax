@@ -13,21 +13,26 @@ namespace Phile\Plugin\StijnFlipper\PhileMathjax;
  * @license http://choosealicense.com/licenses/mit/
  * @package Phile\Plugin\StijnFlipper\PhileMathjax
  */
-class Plugin extends \Phile\Plugin\AbstractPlugin implements \Phile\Gateway\EventObserverInterface {
+class Plugin extends \Phile\Plugin\AbstractPlugin implements \Phile\Gateway\EventObserverInterface
+{
 
     /**
-     * MathJax configuration settings, see
+     * MathJax (default) configuration settings, see `config.php`.
      *
      * @var array mathjax_settings
      */
-    private $mathjax_settings;
+    private $mathjax_settings = array(
+        'enabled' => false,
+        'config'  => 'default',
+        'version' => 'latest',
+    );
 
     /**
      * Mathjax prefix for meta.
      *
      * @var string mathjax_prefix
      */
-    private $mathjax_prefix;
+    private $mathjax_prefix = 'mathjax_';
 
     /**
      * Constructor.
@@ -37,15 +42,6 @@ class Plugin extends \Phile\Plugin\AbstractPlugin implements \Phile\Gateway\Even
     public function __construct()
     {
         \Phile\Event::registerEvent('after_parse_content', $this);
-
-        // default plugin configurations
-        $this->mathjax_settings = array(
-            'enabled' => false,
-            'config'  => 'default',
-            'version' => 'latest',
-        );
-
-        $this->mathjax_prefix = 'mathjax_';
     }
 
     /**
@@ -58,6 +54,10 @@ class Plugin extends \Phile\Plugin\AbstractPlugin implements \Phile\Gateway\Even
      */
     public function on($event, $data=null)
     {
+        // ignore other events
+        if ('after_parse_content' !== $event)
+            return;
+
         // get current page
         $page = $data['page'];
         if (null === $page)
@@ -89,4 +89,4 @@ class Plugin extends \Phile\Plugin\AbstractPlugin implements \Phile\Gateway\Even
         \Phile\Registry::set($key, $twig_vars);
     }
 
-}
+} // end class
